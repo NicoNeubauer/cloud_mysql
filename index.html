@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mystyle.css">
+    <script src="myscripts.js" type="module"></script>
+    <title>Cloud Technologies Assignment 1</title>
+</head>
+<body>
+    <h1>Cloud Technologies Assignment 1</h1>
+    <h3>Description</h3>
+    <p>
+        The bank called ‘ABC Bank’ is a large international banking firm which has multiple
+        branchers in different cities. It offers many financial services including general banking,
+        online banking, investments, credit cards and etc. ABC bank wants to expand their business
+        and move to cloud computing technology.
+    </p>
+    <hr>
+    <h3>Add user</h3>
+    <form action="">
+        <label for="pNum">Personal number:</label><br>
+        <input type="text" id="pNum" name="pNum" placeholder="439072" value=""><br>
+
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" placeholder="John" value=""><br>
+        
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" placeholder="Doe" value=""><br>
+        
+        <label for="bday">Date of birth:</label><br>
+        <input type="text" id="bday" name="bday" placeholder="12.11.12" value=""><br><br>
+    
+
+        <input type="submit" value="Submit" onclick="SeeUser()">
+    </form> 
+
+    <hr>
+    <h3>Update user</h3>
+    <form action="">
+        <label for="pNum">Personal number:</label><br>
+        <input type="text" id="pNum" name="pNum" placeholder="439072" value=""><br>
+
+        <h4>Update</h4>
+
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value=""><br>
+        
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value=""><br>
+        
+        <label for="bday">Date of birth:</label><br>
+        <input type="text" id="bday" name="bday" value=""><br><br>
+
+        <input type="submit" value="Update" onclick="UppdateUser()">
+    </form>
+
+    <hr>
+    <h3>Delete user</h3>
+        <form action="">
+            <label for="pNum">Personal number:</label><br>
+            <input type="text" id="pNum" name="pNum" placeholder="439072" value=""><br><br>
+
+            <input type="submit" value="Delete User" onclick="DeleteUsers()">
+        </form>
+    
+    <hr>
+    <br>
+    <h3>List of users</h3>
+    <table>        
+        <tr>
+            <th>Id</th>
+            <th>Personal number</th>
+            <th>Account number</th>
+            <th>First name</th>
+            <th>Last name</th>
+            <th>Date of birth</th>
+            <th>City</th>
+            <th>Created date</th>
+        </tr>
+        <tr>
+            <td>jhon_dude</td>
+            <td>439072</td>
+            <td>1</td>
+            <td>Joe</td>
+            <td>Smith</td>
+            <td>11.02.99</td>
+            <td>Berlin</td>
+            <td>22.05.19</td>           
+        </tr>
+    </table>
+</body>
+</html>
+
